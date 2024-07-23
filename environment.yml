@@ -1,0 +1,18 @@
+# To use:
+#
+#   $ conda env create -f environment.yml  # `mamba` works too for this command
+#   $ conda activate twiddler-dev
+#
+name: twiddler-dev
+channels:
+  - conda-forge
+dependencies:
+  - python==3.10.0
+  - pandas
+  - ipython
+  - ipdb
+  - pip
+  - pre-commit
+  - black
+  - pytest
+  - python-lsp-server
